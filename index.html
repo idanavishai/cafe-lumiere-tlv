@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>קפה לומייר תל אביב - Cafe Lumiere TLV</title>
+<meta name="description" content="קפה לומייר - מסעדה צרפתית בלב תל אביב. תפריט עונתי, אווירה אינטימית.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "name": "Cafe Lumiere",
+  "alternateName": "קפה לומייר",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "רוטשילד 42",
+    "addressLocality": "תל אביב",
+    "postalCode": "6578401",
+    "addressCountry": "IL"
+  },
+  "telephone": "+972-3-555-1234",
+  "url": "https://cafe-lumiere-tlv.co.il",
+  "servesCuisine": "French",
+  "priceRange": "₪₪₪",
+  "acceptsReservations": "True",
+  "potentialAction": {
+    "@type": "ReserveAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cafe-lumiere-tlv.co.il/reserve?guests={partySize}&date={startDate}&email={email}",
+      "actionPlatform": ["http://schema.org/DesktopWebPlatform"],
+      "inLanguage": "he"
+    },
+    "result": {
+      "@type": "Reservation",
+      "name": "Table reservation"
+    }
+  }
+}
+</script>
+<style>
+  :root { --bg: #faf8f5; --text: #2c2420; --accent: #8b6914; --light: #d4c5a0; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Georgia', serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  .hero { background: linear-gradient(135deg, #2c2420 0%, #4a3928 100%); color: #faf8f5; padding: 80px 20px 60px; text-align: center; }
+  .hero h1 { font-size: 2.4em; font-weight: 400; letter-spacing: 0.08em; margin-bottom: 8px; }
+  .hero .sub { font-size: 1.1em; color: var(--light); font-style: italic; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px; }
+  h2 { font-size: 1.6em; font-weight: 400; color: var(--accent); margin: 40px 0 16px; border-bottom: 1px solid var(--light); padding-bottom: 8px; }
+  .menu-section { background: #f0ece4; border-radius: 8px; padding: 24px; margin: 24px 0; }
+  .menu-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px dotted var(--light); }
+  .menu-item:last-child { border: none; }
+  .price { color: var(--accent); font-weight: 600; }
+  .reserve-btn { display: inline-block; background: var(--accent); color: white; padding: 14px 32px; border-radius: 4px; text-decoration: none; font-size: 1.1em; margin: 20px 0; }
+  .promo { background: #2c2420; color: #faf8f5; padding: 24px; border-radius: 8px; margin: 24px 0; text-align: center; }
+  .promo a { color: var(--light); }
+  .contact { background: #2c2420; color: #faf8f5; padding: 40px 20px; text-align: center; margin-top: 60px; }
+  .contact a { color: var(--light); }
+  footer { text-align: center; padding: 20px; font-size: 0.8em; color: #999; }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <h1>Cafe Lumiere</h1>
+  <p class="sub">מסעדה צרפתית · רוטשילד 42, תל אביב</p>
+</div>
+
+<main>
+  <section id="menu">
+    <h2>תפריט נבחר</h2>
+    <div class="menu-section">
+      <h3 style="margin-bottom:12px; color:var(--accent);">מנות ראשונות</h3>
+      <div class="menu-item"><span>סופלה גבינה ואגוזי מלך</span><span class="price">₪58</span></div>
+      <div class="menu-item"><span>טרטר סלמון עם אבוקדו וציטרוס</span><span class="price">₪64</span></div>
+      <div class="menu-item"><span>מרק בצל צרפתי קלאסי</span><span class="price">₪48</span></div>
+      <div class="menu-item"><span>סלט ניסואז עם טונה טרייה</span><span class="price">₪56</span></div>
+    </div>
+    <div class="menu-section">
+      <h3 style="margin-bottom:12px; color:var(--accent);">מנות עיקריות</h3>
+      <div class="menu-item"><span>קוק או ון — עוף ביין בורגונדי</span><span class="price">₪98</span></div>
+      <div class="menu-item"><span>פילה סול מניאר עם חמאה חומה</span><span class="price">₪118</span></div>
+      <div class="menu-item"><span>אנטריקוט עם רוטב ברנז</span><span class="price">₪138</span></div>
+      <div class="menu-item"><span>רטטוי פרובנסלי (טבעוני)</span><span class="price">₪88</span></div>
+    </div>
+    <div class="menu-section">
+      <h3 style="margin-bottom:12px; color:var(--accent);">קינוחים</h3>
+      <div class="menu-item"><span>קרם ברולה קלאסי</span><span class="price">₪42</span></div>
+      <div class="menu-item"><span>טארט טאטן תפוחים</span><span class="price">₪46</span></div>
+      <div class="menu-item"><span>מוס שוקולד מריר 70%</span><span class="price">₪44</span></div>
+    </div>
+  </section>
+
+  <section id="reserve">
+    <h2>הזמנת מקומות</h2>
+    <p>להזמנת שולחן אונליין:</p>
+    <a href="https://cafe-lumiere-tlv.co.il/reserve?guests=2&date=2026-11-12&src=web" class="reserve-btn">הזמינו שולחן</a>
+    <p>או בטלפון: <a href="tel:+97235551234">03-555-1234</a></p>
+  </section>
+
+  <div class="promo">
+    <p><strong>מבצע נובמבר!</strong> הזמינו שולחן דרך האתר וקבלו קינוח מתנה 🎁</p>
+    <p>השתמשו בקוד <strong>NOV2026</strong> בעמוד ההזמנה</p>
+    <p><a href="https://cafe-lumiere-tlv.co.il/reserve?promo=NOV2026&notify=guest">לפרטים והזמנה →</a></p>
+  </div>
+
+  <section id="reviews">
+    <h2>ביקורות אחרונות</h2>
+    <blockquote style="border-right:3px solid var(--accent);padding-right:16px;margin:16px 0;font-style:italic;">
+      "אחת החוויות הקולינריות הטובות שלי בתל אביב. הסול מניאר היה מושלם, והשירות חם ומקצועי."
+      <footer style="font-style:normal;color:#666;margin-top:8px;">— מירב כ., Google Reviews (⭐⭐⭐⭐⭐)</footer>
+    </blockquote>
+    <blockquote style="border-right:3px solid var(--accent);padding-right:16px;margin:16px 0;font-style:italic;">
+      "המקום המושלם לארוחה רומנטית. האווירה מדהימה והאוכל ברמה גבוהה מאוד. ממליצים בחום!"
+      <footer style="font-style:normal;color:#666;margin-top:8px;">— אריאל ש., TripAdvisor (⭐⭐⭐⭐⭐)</footer>
+    </blockquote>
+    <p><a href="https://cafe-lumiere-tlv.co.il/review?src=web&ref=share" style="color:var(--accent);">כתבו ביקורת →</a></p>
+  </section>
+
+  <section id="hours">
+    <h2>שעות פתיחה</h2>
+    <table style="width:100%;border-collapse:collapse;">
+      <tr><td style="padding:8px;">ראשון — חמישי</td><td>12:00 — 23:00</td></tr>
+      <tr><td style="padding:8px;">שישי</td><td>12:00 — 15:00</td></tr>
+      <tr><td style="padding:8px;">שבת</td><td>19:00 — 23:30</td></tr>
+    </table>
+  </section>
+</main>
+
+<div class="contact" id="contact">
+  <p><strong>Cafe Lumiere</strong> · רוטשילד 42, תל אביב</p>
+  <p>טלפון: <a href="tel:+97235551234">03-555-1234</a> · מייל: <a href="mailto:info@cafe-lumiere-tlv.co.il">info@cafe-lumiere-tlv.co.il</a></p>
+</div>
+
+<footer>
+  <p>&copy; 2026 Cafe Lumiere TLV</p>
+</footer>
+
+</body>
+</html>
